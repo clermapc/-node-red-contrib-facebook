@@ -1,7 +1,7 @@
 module.exports = function (RED) {
     "use strict";
 	var graph = require('fbgraph'),
-	    fs = require("fs"),
+	    fs = require("fs-extra"),
         ursa = require("ursa"),
         url = require("url");
 	    graph.setAccessToken("");
